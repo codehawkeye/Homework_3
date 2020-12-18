@@ -1,3 +1,5 @@
 create a function named generatePassword
 write password to the #password input
-write a conditional statment to ensure user input 
+write a conditional statment to ensure user input
+
+
