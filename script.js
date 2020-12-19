@@ -109,12 +109,13 @@ function getPassWordOptions() {
 }
   if (!length) {
     alert("Press Generate to begin password process");
+    // return (start over if invalid length)
     return
   
   } else if (length < 8 || length > 128) {
     length = parseInt(prompt("You must choose between 8 and 128"));
     // validate user input
-  
+    
 
   } else {
      // Continues once user input is validated
@@ -187,7 +188,7 @@ function getPassWordOptions() {
   // Start random selection variables:
   // Random selection for all variables: 
   for (var i = 0; i < length; i++) {
-      var pickChoices = masterArray[Math.floor(Math.random() * masterArray.length)];
+    var pickChoices = masterArray[Math.floor(Math.random() * masterArray.length)];
       password.push(pickChoices);
   }
   // This joins the password array and converts it to a string  
