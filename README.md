@@ -6,7 +6,7 @@
 > This application allows the user to generate a random password based on selected criteria ( length,letters, special characters, and or numbers).  
 
 
-     -begin the process by pressing " Generate password".
+     -Begin the process by pressing " Generate password".
      -Follow the series of alerts to create your uniuqe password.
 
 
